@@ -10,4 +10,4 @@ It provides two dialogs, one for information about cookies and the other for sel
 - Set cookies for browser, operating system, width, and height.
 - Accept all cookies at once or select preferences individually.
 
-Click [here]() to see the demo of the project.
+Click [here](https://gurlinkaur23.github.io/manage-cookies/) to see the demo of the project.
