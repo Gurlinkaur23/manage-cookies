@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Cookies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600&display=swap"
+    />
+    <link rel="stylesheet" href="./assets/style/index.css" media="all" />
+    <script src="./assets/script/index.js" type="module"></script>
+  </head>
+  <body>
+    <main class="container">
+      <p class="main-text">
+        A <span class="cookie">cookie</span> is a small piece of text sent to
+        your browser by a website you visit. It helps the site remember
+        <span class="information">information</span> about your visit, which can
+        make it easier to visit the site again and make the site more
+        <span class="useful">useful</span> to you.
+      </p>
+
+      <div class="modal one hidden">
+        <h2>Cookies</h2>
+        <p>
+          We use cookies to improve your experience on our website. By clicking
+          "Accept", you agree to the use of cookies for marketing and analytics
+          purposes.
+        </p>
+        <button class="btn accept">Accept</button>
+        <button class="settings">Settings</button>
+      </div>
+
+      <div class="modal two hidden">
+        <h2>Settings</h2>
+        <div class="choices">
+          <p>Browser</p>
+          <label class="switch">
+            <input type="checkbox" class="browser"/>
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="choices">
+          <p>Operating system</p>
+          <label class="switch">
+            <input type="checkbox" class="os"/>
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="choices">
+          <p>Screen width</p>
+          <label class="switch">
+            <input type="checkbox" class="width"/>
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="choices">
+          <p>Screen height</p>
+          <label class="switch">
+            <input type="checkbox" class="height"/>
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <button class="btn preferences">Save preferences</button>
+      </div>
+      <div class="overlay hidden"></div>
+    </main>
+  </body>
+</html>
